@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+.component-container{
+    background-color: rgba(44, 43, 43, 0.884);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.component{
+
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 4rem;
+    width: 80%;
+}
+.bold{
+    font-weight: 900;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.925);
+    width: 100%;
+}
+.component-text{
+    margin: auto 25px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.paragraph{
+    font-size: 2rem;
+    width: 80%;
+    padding: 2rem;
+    color: #eee;
+}
+.form-cont{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.head{
+    background-color: #4A28D3;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+    color: #eee;
+    text-align: center;
+    border-radius: .6rem;
+
+}
+.color{
+    font-size: 1.5rem;
+}
+.form{
+   display: flex;
+   gap: 2rem;
+   flex-direction: column;
+   font-size: 2rem;
+}
+.field{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-bottom: 2rem;
+}
+    .input{
+        padding: 1.5rem;
+        width: 100%;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075);
+        border: 1px solid black;
+    }
+button{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #45AF63;
+    border: none;
+    border-radius: .6rem;
+    color: white;
+    font-size: 1.5rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45af63ee;
+}
+.term{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(151, 29, 29);
+}
+
+
+/* ------------------responsive------------------- */
+
+@media screen and (max-width:1315px) {
+   .component{
+    width: 100%;
+    padding: 1rem;
+   }
+}
+@media screen and (max-width:1122px) {
+    .bold{
+    font-size: 3rem;
+     padding: 1rem;
+    }
+    .paragraph{
+        width: 100%;
+    }
+ }
+ @media screen and (max-width:852px) {
+    .component{
+   display: flex;
+   flex-direction: column;
+    }
+ }
